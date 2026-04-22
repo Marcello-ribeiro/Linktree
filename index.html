@@ -23,31 +23,45 @@
         <h1>Milly's arts|infos</h1>
 
         <div class="link">
-            <a href="https://www.millysarts.shop/" target="_blank"><button class="externos">🔗 ACESSE NOSSA LOJA VIRTUAL</button></a>
+            <a href="https://www.millysarts.shop/" target="_blank">
+                <button class="externos">🔗 ACESSE NOSSA LOJA VIRTUAL</button></a>
         </div>
 
 
-        <div class="zap">
-            <button class="externos"> <img src="assets/midia/Whats.png"class="img-zap">FALE CONOSCO</button>
-        </div>
+    <div class="zap">
+        <a href="https://wa.me/55991156122" target="_blank">
+         <button class="externos">
+            <img src="assets/midia/Whats.png" class="img-zap">
+            FALE CONOSCO
+        </button>
+      </a>
+    </div>
 
 
         <div class="loc">
-            <button class="externos"><img src=""> MAIS INFORMAÇÕES</button>
+            <a href="https://www.millysarts.shop/assets/pages/mais-info.html" target="_blank">
+                <button class="externos">MAIS INFORMAÇÕES</button></a>
         </div>
     </main>
 
-<aside>
-    <div class="botao">
+<aside> 
+  <div class="botao">
+    <button class="ult-bt" onclick="abrirCaixa()">Vamos criar juntos</button>
 
-    <button class="ult-bt">Nos de sua ideia</button>
-
+    <div id="caixaTexto" class="caixa">
+      <textarea id="mensagem" placeholder="Descreva sua ideia..."></textarea>
+      <button onclick="enviar()">Enviar pelo WhatsApp</button>
     </div>
+  </div>
 </aside>
 
 <footer>
-    <a href="">Edayane • </a> <a href="#">Marcello.lzz • </a><a href="#">Milly's arts</a>
+    <a href="https://www.instagram.com/_edayane" target="_blank">Edayane • </a>
+     <a href="https://www.instagram.com/millys.arts" target="_blank">Milly's arts • </a>
+      <a href="https://www.instagram.com/marcello.lzz" target="_blank">Marcello.lzz</a>
+    
 </footer>
 
+<script src="assets/js/script.js"></script>
 </body>
-</html>
+</html> 

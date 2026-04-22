@@ -16,7 +16,7 @@ body {
     width: 250px;
     margin: 0 auto;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
@@ -74,11 +74,42 @@ h1 {
     font-weight: bold;
 }
 
+.caixa {
+  display: none;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+  text-align: center;
+}
+
+.caixa button {
+  margin-top: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: #d66ad6;
+  color: white;
+  cursor: pointer;
+}
+
 .externos:hover {
     transform: scale(1.1);
     background-color: rgb(247, 118, 240);
 }
 
+.loc a{
+    text-decoration: none;
+}
+
+.zap a{
+    text-decoration: none;
+}
 
 .link a {
     text-decoration: none;
